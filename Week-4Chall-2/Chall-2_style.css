@@ -1,0 +1,29 @@
+#Text1{
+
+  text-align: center;
+  padding: 150px;
+  border-style: dotted;
+  border-width: 3px;
+  border-color: purple;
+}
+
+#Text2{
+  text-align: center;
+  padding: 10px;
+  font-size: 11px;
+  color: green;
+}
+
+#Header1{
+  text-align: left;
+  font-size: 30px;
+  color: orange;
+}
+
+
+#Text3{
+  text-align: right;
+  font-size: 8;
+  color: purple;
+  padding: 20px;
+}
