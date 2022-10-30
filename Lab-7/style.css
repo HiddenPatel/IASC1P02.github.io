@@ -1,0 +1,63 @@
+body{
+  color: gold;
+  background-color: #201f1d;
+}
+
+#wrapper{
+  width: 1600px;
+  margin:0 auto;
+  background-color: white;
+}
+
+#header{
+  float: right;
+  height: 100px;
+  width:1400pX;
+  text-align: center;
+  background-color: #1d1d1d;
+
+}
+#logo{
+  float: left;
+  height: 100px;
+  width: 50px;
+}
+#centerbody{
+  float:left;
+  height: 50px;
+  width: 1600px;
+  background-color: #1c1c1c;
+  padding-left: 200px;
+
+
+}
+
+#leftbody{
+  float: left;
+  height: 650px;
+  background-color: #1f1f1f;
+  width: 200px;
+}
+
+#rightbody{
+  float: left;
+  height: 650px;
+  background-color: #1c1c1c;
+  width:1400px;
+}
+
+#footer{
+  height: 85px;
+  text-align: center;
+  background-color: #1b1b1b;
+  clear: both;
+}
+
+#Socials{
+  float: right;
+  padding-bottom: 10px;
+  padding-left: 1550px;
+  padding: 2px;
+
+
+}
