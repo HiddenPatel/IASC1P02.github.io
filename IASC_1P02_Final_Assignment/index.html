@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta content="en-us" http-equiv="Content-Language">
+
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title> Final Assignment</title>
+
+<script type="text/javascript" src="scripts.js"></script>
+
+<link href="style.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<div class="center">
+<img id="leftpic" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/LOVE.jpg" alt="ILoveU" width="500" height="300">
+<h1>Hiten x Manal</h1>
+<img id="rightpic" src="https://images.squarespace-cdn.com/content/v1/5678f534d8af10364e1c847f/1454567718400-G5NP70A70CG410FGNA8X/love.jpg" alt="handholding" width="500" height="300">
+</div>
+<div id="Date">
+  <h3>Together Since💜</h3>
+  <p id="demo"></p>
+  <p id="now"></p>
+
+</div>
+
+
+<div class="center">
+<h2> Our Love Story</h2>
+
+</div>
+
+
+<div class="leftbody">
+<h4> Fun Facts</h4>
+<ul>
+  <li>Pisces </li>
+  <li>Favourite Color Pink </li>
+  <li>Slaps you when she laughs </li>
+  <li>Loves cuddles </li>
+  <li>Likes to argue </li>
+
+</ul>
+<div>
+<img src="IMG_20221208_165338_715.jpg" alt="Couple Pic" width="500" height="600">
+<img src="IMG_20221208_165325_727.jpg" alt="Couple Pic2" width="500" height="600">
+</div>
+</div>
+
+
+<div class="rightbody">
+<h4> Things she likes </h4>
+<ul>
+  <li>Me somehow </li>
+  <li>Hugs </li>
+  <li>Kisses </li>
+  <li>KPOP </li>
+  <li>Cats </li>
+</ul>
+<div>
+<img src="IMG_20221208_165319_931.jpg" alt="Couple Pic3" width="500" height="600">
+<img src="IMG_20221208_165330_000.jpg" alt="Lover Pic" width="500" height="600">
+</div>
+
+</div>
+
+
+<div class="bottom">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus ornare suspendisse sed nisi lacus sed. A scelerisque purus semper eget duis at tellus at. Lacus luctus accumsan tortor posuere ac ut. Gravida quis blandit turpis cursus in hac. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Lacus sed turpis tincidunt id aliquet risus feugiat. Tortor posuere ac ut consequat. Tortor at risus viverra adipiscing. Est velit egestas dui id ornare arcu odio ut sem. Augue ut lectus arcu bibendum at. Viverra aliquet eget sit amet. Nulla aliquet enim tortor at auctor urna. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. A scelerisque purus semper eget duis at tellus at urna. Duis ut diam quam nulla. Dignissim enim sit amet venenatis urna cursus eget. Lacus sed viverra tellus in hac. Et egestas quis ipsum suspendisse ultrices gravida dictum. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare
+</p>
+
+<p>Non arcu risus quis varius quam quisque. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Enim lobortis scelerisque fermentum dui faucibus in ornare. Ultrices sagittis orci a scelerisque purus semper eget duis. Proin nibh nisl condimentum id venenatis a condimentum vitae. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Nam aliquam sem et tortor consequat id porta nibh. Nibh nisl condimentum id venenatis. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Arcu odio ut sem nulla. Auctor eu augue ut lectus arcu. Vitae tempus quam pellentesque nec nam aliquam sem.
+</p>
+
+<p>In vitae turpis massa sed elementum tempus egestas sed. Phasellus egestas tellus rutrum tellus pellentesque. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Eu augue ut lectus arcu bibendum at varius vel pharetra. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Nunc id cursus metus aliquam eleifend. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Condimentum vitae sapien pellentesque habitant morbi tristique senectus. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. Ac odio tempor orci dapibus ultrices in iaculis. Hac habitasse platea dictumst quisque sagittis purus sit amet volutpat. At augue eget arcu dictum varius duis at. Eget lorem dolor sed viverra ipsum. At auctor urna nunc id cursus. Quis imperdiet massa tincidunt nunc. Convallis posuere morbi leo urna molestie at elementum eu.
+</p>
+
+</div>
+
+<div class="footer">
+<p>footer</p>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+const d = new Date("2021-12-24");
+document.getElementById("demo").innerHTML = d;
+
+const p = new Date();
+document.getElementById("now").innerHTML = p;
+
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+
+
+
+</body>
+
+
+
+</html>
